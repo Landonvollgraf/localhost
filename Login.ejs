@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form In JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style3.css">
+    <script type="text/JavaScript" src="js/script.js"> </script>
+</head>
+<style>
+     ::-webkit-scrollbar{
+display: none;
+ }
+</style>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+      </svg>
+    <div class="container" onSubmit="return validation();">
+        <h1>Login!</h1>
+
+        <form name="registration">
+            <label for="email"></label><br>
+            <input type ="email" class="email" name="email" placeholder="Email"><br>
+            <input class="email input-group form-control form-field animation a4" id="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters" type="password" name="p1" placeholder="Enter Password" required /><br><br>
+            <button type="submit" class="button">Submit</button>
+            <h4>--or--</h4><br>
+            <a href="SignUp" class="link" target="_self">Sign Up</a>
+        </form>
+
+    </div>
+       
+    
+</body>
+</html>
+   

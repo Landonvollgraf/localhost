@@ -1,0 +1,76 @@
+html
+{
+    background: linear-gradient(to right, #606c88, #3f4c6b);
+}
+
+.container{
+    background-color: #ffffff;
+    padding: 5em;
+    width: 15vw;
+    height: 45vh;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0 8px 16px 10px rgba(0,0,0,0.2), 0 6px 20px 10px rgba(0,0,0,0.19);
+
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    color: #606c88;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #606c88;
+}
+
+.url{
+    text-align: center;
+}
+
+.email{
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    padding: 1em 2em;
+    margin: .5em;
+    margin-left: -2em;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    text-align: center;
+    outline: none;
+}
+
+::placeholder{
+    color: #3f4c6b;
+}
+
+.button{
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #3f4c6b;
+    border: none;
+    color: black;
+    padding: 1em 2em;
+    margin-top: 3em;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.link{
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #3f4c6b;
+    border: none;
+    color: black;
+    padding: 1em 2em;
+    margin-top: 3em;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 28%;
+    font-size: .8em;
+    color: white;
+}
